@@ -1,0 +1,13 @@
+public class DecimalComparator{
+    public static boolean areEqualByThreeDecimalPlaces(double var1, double var2) {
+        int intVar1 = (int)(var1*1000);
+        int intVar2 = (int)(var2*1000);
+        
+        if(intVar1 == intVar2){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
